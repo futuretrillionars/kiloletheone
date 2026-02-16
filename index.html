@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kilole Hotel</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo">Kilole Hotel</div>
+  <nav>
+    <a href="#rooms">Rooms</a>
+    <a href="#amenities">Amenities</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero Slider -->
+<section class="hero-slider">
+  <div class="slide active" style="background-image:url('images/hero1.jpg')">
+    <div class="hero-content">
+      <h1>Welcome to Kilole Hotel</h1>
+      <p>Experience Comfort, Luxury, and Elegance</p>
+      <a href="#contact" class="btn">Book Now</a>
+    </div>
+  </div>
+  <!-- Add more slides if needed -->
+</section>
+
+<!-- Rooms Section -->
+<section id="rooms">
+  <h2>Rooms & Suites</h2>
+  <div class="rooms">
+    <div class="room-card">
+      <img src="images/room1.jpg" alt="Standard Room">
+      <div class="room-info">
+        <h3>Standard Room</h3>
+        <p>Comfortable room with modern amenities.</p>
+        <p class="price">From $120 / night</p>
+        <a href="#contact" class="btn">Book Now</a>
+      </div>
+    </div>
+    <div class="room-card">
+      <img src="images/room2.jpg" alt="Deluxe Room">
+      <div class="room-info">
+        <h3>Deluxe Room</h3>
+        <p>Spacious room with balcony and premium facilities.</p>
+        <p class="price">From $180 / night</p>
+        <a href="#contact" class="btn">Book Now</a>
+      </div>
+    </div>
+    <div class="room-card">
+      <img src="images/room3.jpg" alt="Executive Suite">
+      <div class="room-info">
+        <h3>Executive Suite</h3>
+        <p>Luxury suite with living area and spa access.</p>
+        <p class="price">From $250 / night</p>
+        <a href="#contact" class="btn">Book Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Amenities Section -->
+<section id="amenities">
+  <h2>Our Amenities</h2>
+  <div class="amenities-grid">
+    <div class="amenity"><i class="fas fa-wifi"></i><p>Free WiFi</p></div>
+    <div class="amenity"><i class="fas fa-swimmer"></i><p>Swimming Pool</p></div>
+    <div class="amenity"><i class="fas fa-dumbbell"></i><p>Fitness Center</p></div>
+    <div class="amenity"><i class="fas fa-spa"></i><p>Spa & Wellness</p></div>
+    <div class="amenity"><i class="fas fa-utensils"></i><p>Restaurant & Bar</p></div>
+    <div class="amenity"><i class="fas fa-car"></i><p>Parking & Shuttle</p></div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-slider">
+    <div class="gallery-slide"><img src="images/gallery1.jpg" alt="Gallery 1"></div>
+    <div class="gallery-slide"><img src="images/gallery2.jpg" alt="Gallery 2"></div>
+    <div class="gallery-slide"><img src="images/gallery3.jpg" alt="Gallery 3"></div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+  <h2>Guest Reviews</h2>
+  <div class="testimonials-slider">
+    <div class="testimonial">
+      <p>"Amazing hospitality and beautiful rooms!"</p>
+      <h4>- John Doe</h4>
+    </div>
+    <div class="testimonial">
+      <p>"The spa was outstanding. Highly recommend!"</p>
+      <h4>- Jane Smith</h4>
+    </div>
+    <div class="testimonial">
+      <p>"A wonderful experience with excellent service!"</p>
+      <h4>- Mark Lee</h4>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact & Booking</h2>
+  <div class="contact-container">
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="phone" placeholder="Phone" required>
+      <textarea name="message" rows="5" placeholder="Your message / request"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.863858419717!2d38.76314431452999!3d9.027753192518214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b859b3d4f16d3%3A0x4c0b3bbd268d61!2sCapital%20Hotel%20and%20Spa!5e0!3m2!1sen!2set!4v1686928925229!5m2!1sen!2set" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2026 Kilole Hotel | <a href="#">Privacy Policy</a>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
